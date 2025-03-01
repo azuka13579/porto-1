@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000, // Durasi animasi dalam ms
-      once: true, // Animasi hanya berjalan sekali
+      once: false, // Animasi hanya berjalan sekali
     });
   }, []);
   return (

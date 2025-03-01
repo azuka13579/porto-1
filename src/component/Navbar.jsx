@@ -24,16 +24,16 @@ export default function Navbar() {
     //     </div>
     //   </div>
     // </Aurora>
-    <div className="w-full bg-transparent  p-4 flex justify-center">
+    <div className="w-full bg-transparent  p-4 flex justify-center sticky top-0 z-100  backdrop-blur-xl">
       <div className="w-full max-w-[1200px] flex justify-between items-center px-10">
         <div className="">
-          <Link to="/about" className="text-white font-bold text-5xl">
+          <a to="/about" className="text-white font-bold text-5xl">
             LOGO
-          </Link>
+          </a>
         </div>
         <div className="flex gap-8 text-white font-Poppins ">
-          <Link
-            to="/"
+          <a
+            href="#home"
             className="relative px-2 text-white font-bold transition-all duration-300 ease-in-out 
         before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-white before:transition-all
          before:duration-300 hover:before:w-full before:rounded-full"
@@ -42,9 +42,9 @@ export default function Navbar() {
             data-aos-delay=""
           >
             Home
-          </Link>
-          <Link
-            to="/"
+          </a>
+          <a
+            href="#about"
             className="relative px-2 text-white font-bold transition-all duration-300 ease-in-out 
         before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-white before:transition-all
          before:duration-300 hover:before:w-full before:rounded-full"
@@ -53,9 +53,9 @@ export default function Navbar() {
             data-aos-delay="100"
           >
             About
-          </Link>
-          <Link
-            to="/"
+          </a>
+          <a
+            href="#skills"
             className="relative px-2 text-white font-bold transition-all duration-300 ease-in-out 
         before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-white before:transition-all
          before:duration-300 hover:before:w-full before:rounded-full"
@@ -64,9 +64,9 @@ export default function Navbar() {
             data-aos-delay="200"
           >
             Skills
-          </Link>
-          <Link
-            to="/"
+          </a>
+          <a
+            href="/#project"
             className="relative px-2 text-white font-bold transition-all duration-300 ease-in-out 
         before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-white before:transition-all
          before:duration-300 hover:before:w-full before:rounded-full"
@@ -75,7 +75,7 @@ export default function Navbar() {
             data-aos-delay="300"
           >
             Project
-          </Link>
+          </a>
         </div>
       </div>
     </div>

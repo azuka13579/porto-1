@@ -5,6 +5,7 @@ const SpotlightCard = ({
   children,
   className = "",
   spotlightColor = "rgba(255, 255, 255, 0.25)",
+  delay = "",
 }) => {
   const divRef = useRef(null);
 
@@ -23,6 +24,9 @@ const SpotlightCard = ({
       ref={divRef}
       onMouseMove={handleMouseMove}
       className={`card-spotlight ${className}`}
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-delay={`${delay}`}
     >
       {children}
     </div>
