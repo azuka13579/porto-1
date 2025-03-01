@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import About from "./pages/About";
+// import About from "./pages/About";
 import { useEffect } from "react";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
       </Routes>
     </Router>
   );
