@@ -97,8 +97,9 @@ export default function Home() {
             className="text-[#00aae9] text-lg font-light tracking-widest"
             data-aos="fade-up"
             data-aos-duration="800"
+            data-aos-anchor-placement="bottom-bottom"
           >
-            My Life and Study
+            My Identity and Study
           </h1>
         </div>
         <div className="text-white tracking-widest">
