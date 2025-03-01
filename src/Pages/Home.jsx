@@ -11,6 +11,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaJava } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -56,6 +57,35 @@ export default function Home() {
                 quibusdam iste blanditiis perferendis numquam quis, a dolore
                 vero ex neque rerum tempora obcaecati!
               </h1>
+              <div className="flex gap-8 my-4 text-4xl font-bold">
+                <a
+                  href="https://instagram.com/azkardityaa"
+                  target="_blank"
+                  className="group"
+                  data-aos="fade-right"
+                  data-aos-duration="800"
+                >
+                  <FaInstagram className="text-[#00aae9] bg-white/75 rounded-full group-hover:bg-[#00aae9] group-hover:text-white transition duration-300 p-1"></FaInstagram>
+                </a>
+                <a
+                  href="https://instagram.com/azkardityaa"
+                  target="_blank"
+                  className="group"
+                  data-aos="fade-right"
+                  data-aos-duration="800"
+                >
+                  <FaInstagram className="text-[#00aae9] bg-white/75 rounded-full group-hover:bg-[#00aae9] group-hover:text-white transition duration-300 p-1"></FaInstagram>
+                </a>
+                <a
+                  href="https://instagram.com/azkardityaa"
+                  target="_blank"
+                  className="group"
+                  data-aos="fade-right"
+                  data-aos-duration="800"
+                >
+                  <FaInstagram className="text-[#00aae9] bg-white/75 rounded-full group-hover:bg-[#00aae9] group-hover:text-white transition duration-300 p-1"></FaInstagram>
+                </a>
+              </div>
               <button
                 className="relative group overflow-hidden px-6 py-3 text-white font-bold rounded-lg bg-blue-500 transition-all duration-300 ease-in-out w-48 mt-4
         before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-white before:transition-all before:duration-300 hover:before:w-full before:text-blue-500"
@@ -110,14 +140,14 @@ export default function Home() {
                 <div className="flex ">
                   <div className="font-bold">
                     <h1>Name</h1>
-                    <h1>Born</h1>
+                    {/* <h1>Born</h1> */}
                     <h1>City</h1>
                     <h1>University</h1>
                     <h1>Major</h1>
                   </div>
                   <div className="flex-1 ml-4">
                     <h1>: Azka Raditya Hafidz</h1>
-                    <h1>: 28 December 2005</h1>
+                    {/* <h1>: 28 December 2005</h1> */}
                     <h1>: Bekasi</h1>
                     <h1>: IPB University</h1>
                     <h1>: Statistic and Data Science</h1>
