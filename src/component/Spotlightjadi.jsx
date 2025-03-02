@@ -14,6 +14,7 @@ export default function Spotlightjadi(props) {
         dolor sit amet
       </h1>
       <button
+        href={props.kemana}
         className="relative group overflow-hidden px-6 py-3 text-white font-bold rounded-lg bg-blue-500/80 transition-all duration-300 ease-in-out w-48 mt-4
         before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-white before:transition-all before:duration-300 hover:before:w-full hover:before:text-blue-500"
       >
