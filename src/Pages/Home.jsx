@@ -241,7 +241,7 @@ export default function Home() {
           data-aos-delay=""
           data-aos-anchor-placement="bottom-bottom"
         >
-          I have been finished some project
+          I have been finished some projects
         </h1>
         <div className="grid grid-cols-2 gap-6 mt-6">
           <Spotlightjadi></Spotlightjadi>
